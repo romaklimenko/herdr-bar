@@ -8,6 +8,10 @@
   everything. Any other value falls back to `"all"`.
 - Add `select_current` (default `false`) to open with the row you are in
   selected instead of the one you came from (#19). The order does not change.
+- Add `follow_new_sessions` (default `false`) to let the next Claude or Codex
+  session in a pane take over the task title written for the one before it,
+  after `/clear`, a restart or a new terminal (#21). A tab you renamed stays
+  yours.
 
 ## 0.9.1
 
